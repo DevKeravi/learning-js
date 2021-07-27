@@ -1,3 +1,47 @@
+div {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+body {
+	color: whitesmoke;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 300;
+}
+#row {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#column {
+	text-align: center;
+}
 .hidden {
 	display: none;
 }
+#clock {
+	margin-top: 300px;
+	font-size: 200px;
+}
+#greeting {
+	font-size: 40px;
+	margin-bottom:80px;
+}
+.todo-label {
+	font-size: 30px;
+}
+
+.com1 {
+	font-size: 30px;
+}
+.com2 {
+	font-size: 25px;
+}
+
+#quote {
+	color: black;
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+
+

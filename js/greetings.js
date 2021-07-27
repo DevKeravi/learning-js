@@ -17,7 +17,7 @@ function handleLinkClick(event) {
   event.preventDefault();
 }
 function paintGreetings(username) {
-  greeting.innerText = `Hello ${username}`;
+  greeting.innerText = `오늘 하루는 어떠신가요 ${username} 님`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
